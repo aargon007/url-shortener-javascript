@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>url shortener</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-700">
+    <div class="w-10/12 md:w-1/2 mx-auto rounded-md mt-20 bg-white p-5">
+        <h1 class="font-bold text-2xl text-center">Link Shortener</h1>
+        <div class="space-x-5 mt-10 text-center space-y-5">
+            <span class="text-xl font-bold">Enter a Link:</span>
+            <input type="url" name="" id="url" class="bg-gray-200 p-2 w-7/12 rounded-md">
+            <button class="bg-blue-700 p-2 text-white rounded-md" id="submit-url">Shorten it</button>
+        </div>
+        <div class="space-x-5 text-center mt-10 flex justify-center">
+            <div id="link">
+                
+                
+            </div>
+            <div>
+                <button class="bg-slate-400 text-white p-3 text-xl font-semibold rounded-md hover:bg-slate-600" id="copy-link">Copy Link</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./shorten.js"></script>
+</body>
+</html>
